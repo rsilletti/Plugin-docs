@@ -5,21 +5,20 @@ Authors are defined as all users who have posted article data, file uploads, or 
 The type attribute's options must match exactly the available choices as
 displayed in TXP's user list options, as follows:</p>
 
-    <ul><li>Publisher (1)</li>
-           <li>Managing Editor (2)</li>
-           <li>Copy Editor (3)</li>
-           <li>Staff writer (4)</li>
-           <li>Freelancer (5)</li>
-           <li>Designer (6)</li>
-</ul>
+   Publisher (1)
+           Managing Editor (2)
+           Copy Editor (3)
+           Staff writer (4)
+           Freelancer (5)
+           Designer (6)
 
 <p>Also integer values matching these or custom values can currently be from 0 thru 9. (0 = no privs setting)</p>
 <p>The type attribute will accept individual types or integers or a comma delimited list of either or both.</p>
 </fieldset>
 <hr /><h2>Example (Self Closing)</h2><hr />
-<fieldset><code>
+<fieldset>
 &lt;txp:ras_author_credits break="li" wraptag="ul" type="Publisher,Managing Editor,Copy Editor,7" label="Editors" labeltag="h3" /&gt;
-</code></fieldset>
+</fieldset>
 
 <fieldset>
 <p>Container tag recursive tags and behaviors.</p>

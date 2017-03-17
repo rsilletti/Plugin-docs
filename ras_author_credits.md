@@ -30,7 +30,7 @@ displayed in TXP's user list options, as follows:</p>
 </fieldset>
 <hr /><h2>Example (Container Tag Usage)</h2><hr />
 <fieldset>
-<code>
+
 &lt;txp:ras_author_credits wraptag="ul" break="li"&gt;<br />
 &lt;txp:if_author name='&lt;txp:ras_users /&gt;'&gt;-> &lt;/txp:if_author&gt;<br />
 			&lt;txp:ras_authors link="1" /&gt;<br />
@@ -40,7 +40,7 @@ displayed in TXP's user list options, as follows:</p>
 					&lt;txp:permlink&gt;&lt;txp:title /&gt;&lt;/txp:permlink&gt;<br />
 				&lt;/txp:article_custom&gt;<br />
 			&lt;/txp:if_author&gt;<br />
-		&lt;/txp:ras_author_credits&gt;</code>
+		&lt;/txp:ras_author_credits&gt;
 </fieldset>
 
 <hr /><h2>Attributes, context &amp; usage.</h2><hr />
@@ -72,8 +72,8 @@ displayed in TXP's user list options, as follows:</p>
 <li>&lt;txp:ras_linkcount /&gt; : number of created links.</li>
 </ul>
 </fieldset>
-<fieldset><textarea rows="22" cols="95">
-*Testing tags sets*
+<fieldset>
+
 
 <txp:ras_author_credits wraptag="ul" break="li">
 <txp:ras_authors link="1" /> - Posts: (<txp:ras_articlecount />) Files: (<txp:ras_filecount />) Images: (<txp:ras_imagecount />)
@@ -95,7 +95,7 @@ labeltag="h3"  rank_by="articles,files" select_by="4" wraptag="ul" break="li">
 (<txp:ras_filecount />
 </txp:ras_author_credits>
 
-</textarea></fieldset>
+</fieldset>
 <hr /><h2> Settings list for the "select_by" attribute. </h2><hr />
 <fieldset>
 

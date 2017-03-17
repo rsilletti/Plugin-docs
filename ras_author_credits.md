@@ -4,14 +4,14 @@
 Authors are defined as all users who have posted article data, file uploads, or images for the site. TXP's standard list attributes are supported including section and this_section, also a type attribute is available to discriminate amongst user privileges. <br />
 The type attribute's options must match exactly the available choices as
 displayed in TXP's user list options, as follows:</p>
-
+<code>
    Publisher (1)
            Managing Editor (2)
            Copy Editor (3)
            Staff writer (4)
            Freelancer (5)
            Designer (6)
-
+	   </code>
 <p>Also integer values matching these or custom values can currently be from 0 thru 9. (0 = no privs setting)</p>
 <p>The type attribute will accept individual types or integers or a comma delimited list of either or both.</p>
 </fieldset>

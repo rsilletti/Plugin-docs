@@ -1,6 +1,7 @@
 <div id="helpdiv"><hr /><h2>ras_author_credits</h2><hr />
 <fieldset>
-<p><strong>ras_author_credits</strong> returns an href(or not) list of authors with statistics as defined by attribute setting and form values.<br /><br />
+<p><strong>ras_author_credits</strong> returns an href(or not) list of authors with statistics as defined by attribute setting and form values.<br />
+<a href="http://images.majyk.net/txp/file_download/6/">Download Link </a><br />
 Authors are defined as all users who have posted article data, file uploads, or images for the site. TXP's standard list attributes are supported including section and this_section, also a type attribute is available to discriminate amongst user privileges. <br />
 The type attribute's options must match exactly the available choices as
 displayed in TXP's user list options, as follows:</p>
